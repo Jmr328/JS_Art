@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>The Gallery</title>
+</head>
+<body>
+
+<script>
+function photoInfo1() {
+    location.replace("http://127.0.0.1:5500/img1.html")
+}
+function photoInfo2() {
+    location.replace("http://127.0.0.1:5500/img2.html")
+}
+function photoInfo3() {
+    location.replace("http://127.0.0.1:5500/img3.html")
+}
+function photoInfo4() {
+    location.replace("http://127.0.0.1:5500/img4.html")
+}
+function photoInfo5() {
+    location.replace("http://127.0.0.1:5500/img5.html")
+}
+function photoInfo6() {
+    location.replace("http://127.0.0.1:5500/img6.html")
+}
+</script>
+
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="photoInfo1()">
+                <img src="/images/img1.jpg " alt="" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="photoInfo2()">
+                <img src="/images/img2.jpg " alt="" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="photoInfo3()">
+                <img src="/images/img3.jpg " alt="" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="photoInfo4()">
+                <img src="/images/img4.jpg " alt="" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="photoInfo5()">
+                <img src="/images/img5.jpg " alt="pepe poopoo" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="photoInfo6()">
+                <img src="/images/img6.jpg " alt="" class="gallery__img">
+            </figure>
+        </div>
+    </div>
+    
+</body>
+</html>
